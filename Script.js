@@ -550,7 +550,7 @@ let contenthome = `
 
         // database akuny
         $.ajax({
-            url:'/SobatTani/Database/akun.json',
+            url:'https://raw.githubusercontent.com/muftialwafi/SobatTani/refs/heads/Wafi/DataBase/akun.json',
             success:hasil =>{
                 for (let i = 0; i < hasil.length; i++) {
                     akun.push(hasil[i]);
@@ -732,7 +732,7 @@ let contenthome = `
         // deklarasi database
 
         $.ajax({
-            url: 'Database/produk.json',
+            url: 'https://raw.githubusercontent.com/muftialwafi/SobatTani/refs/heads/Wafi/DataBase/produk.json',
             success: result => {
                 for (let i = 0; i < result.length; i++) {
                     prod.push(result[i]);
